@@ -12,5 +12,6 @@ Must ensure
 # Installation
 `npm install`
 # Running
-Start HTTP server from the root of the project. e.g.:
-`python -m SimpleHTTPServer 8000`
+Start HTTP server from the root of the project.
+
+e.g: `python -m SimpleHTTPServer 8000`
