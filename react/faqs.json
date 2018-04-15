@@ -1,0 +1,23 @@
+{
+  "info": {
+    "responseCode": 200,
+    "responseMsg": "Success"
+  },
+  "faqs": [
+    {
+      "id": 1,
+      "question": "What is Salmon about?",
+      "answer": "Building great sites for our amazing clients. Simple."
+    },
+    {
+      "id": 3,
+      "question": "What is the location of Salmon Watford?",
+      "answer": "Just 2 minutes walk from Watford Junction Train Station"
+    },
+    {
+      "id": 5,
+      "question": "Is this the last question?",
+      "answer": "Yes. You have done well!"
+    }
+  ]
+}

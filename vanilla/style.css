@@ -1,0 +1,45 @@
+/* Styles go here */
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+.faqs {
+  border:solid 1px gray;
+}
+
+.faqs__item {
+  border: solid 1px gray;
+  margin: 0.5rem auto;
+}
+
+.faqs__item__question {
+  background: gray;
+  position: relative;
+}
+
+.faqs__item__question::after {
+  /* full width minus */
+  content: '[\ff0D]';
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.faqs__item__question--selected {
+  background: green;
+}
+
+.faqs__item__question--selected::after {
+  /* full width plus */
+  content: '[\ff0B]';
+  display: inline-block;
+}
+
+.faqs__item__answer {
+  display: none;
+}
+
+.faqs__item__answer--selected {
+  display: block;
+}
